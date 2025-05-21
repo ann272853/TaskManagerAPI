@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<!--
+	Developer : Gaurav Tiwari 		
+								Facebook : https://www.facebook.com/TheLvnGDead
+								GitHub :   https://www.github.com/gauravadtiwari
+								Mail :     gauravkdma@gmail.com
+								
+	Copyright 2017 App Dev Wing GeekHaven
+-->
+<html>
+	<head>
+		<title>App Development Wing</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+		<style type="text/css">
+			html *
+			{
+			   font-family: Comfortaa !important;
+			}
+		</style> 
+	</head>
+	<body class="landing" >
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"  style="color:#660cd3;font: bold 40px/25px Comfortaa;margin-top:45px;margin-left:10px"><a href="http://geekhaven.iiita.ac.in" target="_blank">GeekHaven | IIITA</a></h1>
+					
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#About">About</a></li>
+							<li><a href=#two>Projects</a></li>
+							<li><a href="#resources">Resources</a></li>	
+							<li><a href=#four>Team</a></li>							
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2 style="color:#0bbc0e;font: bold 65px/00px Comfortaa;margin-top:45px;margin-left:10px"><a href="">App Development Wing</a></h2>
+							<br><br>
+							<br><h3 style="color:#0bc1af;font: bold 35px/35px Comfortaa;">Mobile is not the future,<br>it is the now</h3>
+						</header>
+						<span class="image">
+							<img class="mySlides" src="images/kerstin.gif" alt="" />
+							<img class="mySlides" src="images/and.gif" alt="" />
+							<img class="mySlides" src="images/kerstin1.gif" alt="" />
+							<img class="mySlides" src="images/c_kerstin.gif" alt="" />
+							<img class="mySlides" src="images/juicebox.gif" alt="" />
+							<img class="mySlides" src="images/digital.gif" alt="" />
+							<img class="mySlides" src="images/david.gif" alt="" />
+							<img class="mySlides" src="images/pago.gif" alt="" />
+						</span>
+						<script>
+							var myIndex = 0;
+							carousel();
+							function carousel() {
+    							var i;
+							    var x = document.getElementsByClassName("mySlides");
+							    for (i = 0; i < x.length; i++) {
+							       x[i].style.display = "none";  
+							    }
+							    myIndex++;
+							    if (myIndex > x.length) {myIndex = 1}    
+							    x[myIndex-1].style.display = "block";  
+							    setTimeout(carousel, 4000); // Change image every 2 seconds
+							}
+						</script>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom" style="color: white">
+					<span class="image fit main"><img src="images/pic05.png" alt="" /></span>
+										<div class="content" id = "About">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)" >
+									<header>
+										<h2 style="font: bold 30px/40px Comfortaa; color:#a7e509">App Development Wing GeekHaven</h2>
+										<h3 style="font: 25px/35px Comfortaa">Android, the world's most popular mobile platform</h3>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>Android powers hundreds of millions of mobile devices in more than 190 countries around the world. It's the largest installed base of any mobile platform and growing fast—every day another million users power up their Android devices for the first time and start looking for apps, games, and other digital content.
+
+Android gives you a world-class platform for creating apps and games for Android users everywhere, as well as an open marketplace for distributing to them instantly.</p>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<h3 style="font: 25px/35px Comfortaa">The mobile market is on the rise. Our goal is to engage students of IIITA in the mobile development process.</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right" style="color: white">
+					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2 style="font: bold 30px/0px Comfortaa; color:#e20f56">Effervescence App</h2>
+							<br>
+							<p>Effervescence is the annual Cultural festival of Indian Institute of Information Technology - Allahabad
+Experience the Carnival and stay updated with this Official App.</p>
+						</header>
+						<p>Experience the Carnival and stay updated with this Official App. <h3 >App Features:</h3>
+<ul style="list-style-type:square">
+  <li>Events by Day and Categories</li>
+  <li>Always get the latest info on the fly without updating the app.</li>
+  <li>Get Event and Organizer Info right on the App.</li>
+</ul>
+</p>
+						<ul class="actions">
+							<li><a href="http://www.effe.org.in" class="button" target="_blank">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left" style="color: white">
+					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2 style="font: bold 30px/0px Comfortaa; color:#e20f56" >IIIT-A News Feed App</h2>
+							<br>
+							<p>The Official Upcoming App to constantly update all IIITians with the current and forthcoming events in the college. </p>
+						</header>
+						<p>The project is under construction and will be out soon.
+							<h3>App Features:</h3>
+<ul style="list-style-type:square">
+  <li>Shows all college events in the cards</li>
+  <li>Get all live events updates, right at your fingertips.</li>
+  <li>Provides all the details of organisers of the events.</li>
+</ul>
+						</p>
+						<ul class="actions">
+							<li><a href="https://www.github.com/gauravadtiwari" class="button" target="_blank">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#resources" class="goto-next scrolly">Next</a>
+				</section>
+
+
+
+<section id="resources" class="spotlight style1 bottom" style="color: white">
+					<span class="image fit main"><img src="images/pic02.png" alt="" /></span>
+										<div class="content" id = "Resources">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)" >
+									<header>
+										<h2 style="font: bold 30px/40px Comfortaa; color:#e20f56">Resource Section</h2>
+										<h3 style="font: 25px/35px Comfortaa">These are some of the resources that can prove to be invaluable to anyone starting their Android development journey.</h3>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p><a href="https://www.udacity.com/course/android-development-for-beginners--ud837" target="_blank">Udacity - Android Development for Beginners.</a><br><br>
+									<a href="https://developers.google.com/android/for-all/vocab-words/" target="_blank">Google Android Glossary.</a><br><br>
+									<a href="https://developer.android.com/index.html" target="_blank">Android Developers.</a><br><br>
+									<a href="https://developer.android.com/kotlin/resources.html" target="_blank">Resources to Learn Kotlin.</a><br><br>
+									<a href="https://developer.android.com/studio/index.html" target="_blank">Android Studio.</a><br><br>
+									<a href="https://www.youtube.com/watch?v=Z98hXV9GmzY&list=PLWz5rJ2EKKc8I9gHTMh5yKkwRRGE8BjbQ" target="_blank">Android Studio & Tools.</a><br><br>
+								</p>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<h3 style="font: 20px/30px Comfortaa">Whether you are a beginner or a seasoned developer, this is an attempt to reduce your pain and help you get access to the right resources to master Android development.</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+
+
+			<!-- Four -->
+			<div style="background-color: #1c1d26;color:white">
+				<section id="four" class="wrapper style1 special fade-up">
+
+					<div class="container">
+						<header class="major">
+							<h1>Coordinators</h1>
+						</header>
+						
+							<div class="row uniform" >
+								<div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
+									<span class="w3-container">
+										<img src="images/pranjal.jpg" alt="" class= "w3-circle">
+									</span>
+									
+									<h3><a href="https://www.facebook.com/betterclever" target="_blank">Pranjal Paliwal</a> </h3>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12 col-sm-12">
+									<span class="w3-container" >
+										<img src="images/affan.jpg" alt="" class= "w3-circle">
+									</span>
+									
+									<h3><a href="https://www.facebook.com/AffanAhmadFahmi" target="_blank">Affan Ahmad Fahmi</a></h3>
+								</div>
+								
+								
+							</div>
+						
+					</div>
+					<div class="container">
+						<header class="major">
+							<h1>Members</h1>
+						</header>
+						<div class="box alt" text-align:center>
+							<div class="row uniform">
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="w3-container" >
+										<img src="images/akshat.jpg" alt="" class= "w3-circle">
+									</span>
+									
+									<h3><a href="https://www.facebook.com/akshatj011" target="_blank">Akshat Jain</a></h3>
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="w3-container" >
+										<img src="images/gaurav.jpg" alt="" class= "w3-circle">
+									</span>
+									
+									<h3><a href="https://www.facebook.com/TheLvnGDead" target="_blank">Gaurav Tiwari</a></h3>
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="w3-container" >
+										<img src="images/aditi.jpg" alt="" class= "w3-circle">
+									</span>
+									
+									<h3><a href="https://www.facebook.com/aditi.bansal.007" target="_blank">Aditi Bansal</a></h3>
+								</section>
+								
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row uniform">
+									<div class="col-lg-7 col-md-5 col-sm-12 col-xs-12">
+										<span class="w3-container" >
+											<img src="images/shashank.jpg" alt="" class= "w3-circle">
+										</span>
+										
+										<h3><a href="https://www.facebook.com/profile.php?id=100000179816805" target="_blank">Sashank Mishra</a></h3>
+									</div>
+									<div class="col-lg-3 col-md-5 col-sm-12 col-xs-12">
+										<span class="w3-container" >
+											<img src="images/nikhil.jpg" alt="" class= "w3-circle">
+										</span>
+										
+										<h3><a href="https://www.facebook.com/nikhilmundra29" target="_blank">Nikhil Mundra</a></h3>
+									</div>
+								</div>
+					</div>	
+				</section>
+			</div>
+			<!-- Five -->
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/GeekHavenAppD" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/GeekHaven" class="icon alt fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li><a href="https://geekhaven.iiita.ac.in/AppD/">Android App Development Wing</a></li><li>All rights reserved with <a href="http://geekhaven.iiita.ac.in">Geek Haven</a></li><li>Design: App Dev Wing - Geek Haven</a></li><br><br><br><br>
+						<!--
+						<br>Made with &nbsp; <span style="font-size:200%;color:#be1931;">&hearts;</span> &nbsp; by &nbsp;&nbsp;: &nbsp;  </li><a href="http://github.com/gauravadtiwari" target="_blank">Gaurav Tiwari</a></ul>
+						-->						
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
